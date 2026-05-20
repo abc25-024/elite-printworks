@@ -7,52 +7,67 @@
        <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Place Your Order</h1>
-    <form id="orderForm">
-      <label for="name">Full Name</label>
-      <input type="text" id="name" name="name" required>
+ 
+<div class="form-container">
+    <h2>TRUST US AND OUR BRAND TO ENLIGHTEN YOURS</h2>
+    <p>Kindly fill in your details and specify your needs</p>
 
-      <label for="company">Company Name</label>
-      <input type="text" id="company" name="company">
+    <form action="#" method="post">
+        
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="full name" required>
 
-      <label for="email">Email Address</label>
-      <input type="email" id="email" name="email" required>
+        <label for="business">Business / Brand Name</label>
+        <input type="text" id="business" name="business" placeholder="company name">
 
-      <label for="phone">Phone Number</label>
-      <input type="tel" id="phone" name="phone">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="abc@gmail.com" required>
 
-      <label for="product">Select Product</label>
-      <select id="product" name="product" required>
-        <option value="">-- Choose an option --</option>
-        <option value="signage">Signage</option>
-        <option value="banner">Banner</option>
-        <option value="vehicle_wrap">Vehicle Wrap</option>
-        <option value="merchandise">Branded Merchandise</option>
-      </select>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="+267 71234567">
 
-      <label for="size">Size / Dimensions</label>
-      <input type="text" id="size" name="size" placeholder="e.g. 2m x 1m">
+        <label for="service">Service Needed</label>
+        <select id="service" name="service">
+            <option value="">Select a service</option>
+            <option value="brand-identity">Brand Identity</option>
+            <option value="logo-design">Logo Design</option>
+            <option value="rebranding">Rebranding</option>
+            <option value="brand-strategy">Brand Strategy</option>
+            <option value="marketing-design">Marketing Materials</option>
+        </select>
 
-      <label for="material">Material</label>
-      <input type="text" id="material" name="material" placeholder="e.g. Vinyl, Acrylic">
+        
+        <label for="measurements">Measurements</label>
+        <input type="text" id="name" name="name" placeholder="2m by 3m" required>
 
-      <label for="file">Upload Logo / Artwork</label>
-      <input type="file" id="file" name="file">
+        <label for="material type">Material Type</label>
+        <select id="type" name="Type">
+            <option value="">Select type</option>
+            <option value="brass">Brass</option>
+            <option value="Corrugated sheet">Corrugated sheet</option>
+            <option value="glass">Glass</option>
+            <option value="adhesive">Adhesive</option>
+        </select>
 
-      <label for="instructions">Special Instructions(if any)</label>
-      <textarea id="instructions" name="instructions" rows="4"></textarea>
+        
+      
 
-      <button type="submit">Submit Order</button>
+
+        <label for="budget">Estimated Budget</label>
+        <select id="budget" name="budget">
+            <option value="">Select budget range</option>
+            <option value="low">P500 – P1,000</option>
+            <option value="medium">P1,000 – P3,000</option>
+            <option value="high">P3,000+</option>
+        </select>
+
+        <label for="message">Project Details</label>
+        <textarea id="message" name="message" placeholder="Tell us about your brand, goals, and timeline"></textarea>
+
+        <button type="submit">Submit Order</button>
     </form>
-  </div>
+</div>
+  
 
-  <script>
-    document.getElementById('orderForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      alert('Thank you! Your order has been submitted. We will contact you shortly.');
-      // Here you would normally send the form data to your server
-    });
-  </script>
 </body>
 </html>
