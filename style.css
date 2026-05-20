@@ -207,3 +207,26 @@
     select:hover{
         transform: scale(1.02);
         box-shadow: 0 4px 10px rgba(0, 0, 0.15)
+    }
+      /*---catalogue page---*/
+ body{
+      background-color:white;
+      margin:0;
+    }
+    header{
+      border-color:black;
+      border-radius:20px;
+      margin-left:50px;
+      margin-right:50px;
+    }
+    .catalogue{
+     width:90%;
+      margin:auto;
+      padding-top:20px;
+    }
+    .catalogue img{
+      width:100%;
+      margin-bottom:30px;
+      border-radius:5px;
+      display:block;
+    }
