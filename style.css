@@ -276,13 +276,13 @@ button {
 }
 
 /*---faq page---*/
-  #faq-body {
+  faq-page body {
           
-            margin-left:10px;
+            margin-left:20px;
         }
 
        
-        h1 {
+        faq-page h1 {
             text-align: center;
             color: black;
             margin-bottom: 30px;
