@@ -1,10 +1,11 @@
 /*-----index page------*/
-    body {
+   body {
             font-family: Arial, sans-serif;
             margin: 0;
             background-color: #f4f8fc;
+    
         }   
-      #index header {
+      #index  header {
         background-color: #0a3d62;
         color: white;
         padding: 20px;
@@ -34,21 +35,15 @@
         margin: 20px;
     }
  
-    main {
+    .main {
         flex: 3;
         padding: 20px;
         background-color: white;
         border-radius: 10px;
     }
  
-    aside {
-        flex: 1;
-        margin-left: 20px;
-        padding: 20px;
-        background-color: #d6eaf8;
-        border-radius: 10px;
-    }
- 
+   
+      
     footer {
         background-color: #0a3d62;
         color: white;
@@ -57,8 +52,8 @@
         margin-top: 20px;
     }
  
-    h1, h2 {
-        color: #0a3d62;
+    #index   h1, h2 {
+        color: dark-blue;
     }
  
     .btn {
@@ -73,8 +68,18 @@
  
     .btn:hover {
         background-color: #145a86;
+        text-decoration-line: underline;
     }
-
+        .aside {
+        flex: 1;
+        margin-left: 20px;
+        padding: 20px;
+        background-color: #d6eaf8;
+        border-radius: 10px;
+        margin-top:20px;
+        
+    }
+ 
 
 /*---contact page---*/
      body
